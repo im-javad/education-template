@@ -1,0 +1,35 @@
+/* START CONTACT SECTION STYLES */
+.container-fluid-custom{
+    background-color: #10aaa8;
+    color: #fff;
+    border-radius: 0px 0px 15px 15px
+}
+
+.container-fluid-custom .contact{
+    font-size: 15px;
+    height: 40px;
+    padding-left: 10px;
+}
+.container-fluid-custom .contact i{
+    color: #324a62;
+    margin-right: 5px;
+    vertical-align: -10px;
+}
+.container-fluid-custom .contact span{
+    margin-right: 20px;
+    vertical-align: -8px;
+}
+
+.container-fluid-custom .social-media{
+    direction: rtl;
+    padding-right: 10px;
+}
+.container-fluid-custom .social-media i{
+    vertical-align: -8px;
+    margin-left: 7px;
+}
+.container-fluid-custom .social-media i:hover{
+    color: #324a62;
+    font-size: 22px;
+}
+/* END CONTACT SECTION STYLES */
