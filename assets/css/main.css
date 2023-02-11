@@ -4,6 +4,10 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: rgba(37, 212, 209, 0.05);
+    background-attachment: fixed;
+}
 li,
 ol,
 ul{
@@ -45,11 +49,24 @@ figure{
 .img-responsive{
     width: 100%;
     height: auto;
-    border-radius: 6px;
 }
 .absolute{
     position: absolute;
 }
+.relative{
+    position: relative;
+}
 .m-15{
     margin-bottom: 15px;
+}
+.mt-20{
+    padding-top: 20px;
+}
+.text-center{
+    text-align: center;
+}
+.centrized{
+    top: 50%;
+    left: 50% ;
+    transform: translate(-50% , -50%);
 }
