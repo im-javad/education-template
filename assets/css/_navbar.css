@@ -1,0 +1,54 @@
+.active{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.nav{
+    background-color: #10aaa8;
+    overflow: hidden;
+    position: sticky;
+    top:0;
+    z-index: 999;
+}
+.row.navbar{
+    display: flex;
+    align-items: center;
+}
+.nav a{
+    float: left;
+    color: #1f1f1f;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 18px;
+}
+.nav a:hover{
+    color: gold;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.icon{
+    display: none;
+}
+@media screen and (max-width: 600px){
+    .row.navbar{
+        display: block;
+    }
+    .nav a:not(:first-child){
+        display: none;
+    }
+    .nav a.icon{
+        display: block;
+        float: right;
+    }
+    .nav.responsive{
+        position: relative;
+    }
+    .nav.responsive a.icon{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .nav.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+        border-bottom: 0;
+    }
+}
