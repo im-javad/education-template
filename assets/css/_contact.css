@@ -1,7 +1,7 @@
 .container-fluid-custom{
     background-color: #10aaa8;
     color: #fff;
-    border-radius: 0px 0px 15px 15px
+    /* border-radius: 0px 0px 15px 15px; */
 }
 
 .container-fluid-custom .contact{
