@@ -1,0 +1,81 @@
+.img-header{
+    min-height: 90.8vh;
+}
+.overlay{
+    width: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    min-height: 90.8vh;
+}
+.header-title{
+    color: white;
+    margin: 224px;
+    max-width: 500px;
+}
+.header-title a{
+    background-color: #10aaa8;
+    color: black;
+    padding: 5px 14px;
+    font-weight: 600;
+    float: right;
+    border-radius: 3px;
+}
+@media screen and (max-width: 1500px){
+    .header-title{
+        width: 100%;
+        margin: 100px 0px 0px 70px;
+    } 
+    .img-header, .overlay{
+       min-height: 100%; 
+    }    
+}
+@media screen and (max-width: 1300px){
+    .header-title{
+        width: 100%;
+        margin: 70px 0px 0px 50px;
+    } 
+    .header-title h1{
+        font-size: 25px;
+    }
+    .header-title h3{
+        font-size: 18.8px;
+    }
+    .header-title a{
+        padding: 5px 14px;
+        font-size: 15px;
+        font-weight: 600;
+        float: right;
+        border-radius: 3px;
+    }
+}
+@media screen and (max-width: 900px){
+    .header-title{
+        width: 100%;
+        margin: 50px 0px 0px 40px;
+    }  
+    .header-title h1{
+        font-size: 20px;
+    }
+    .header-title h3{
+        font-size: 14.8px;
+    }
+    .header-title a{
+        position: absolute;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 600px){
+    .header-title{
+        width: 100%;
+        margin: 10px 0px 0px 9px;
+    }  
+    .header-title h1{
+        font-size: 20px;
+    }
+    .header-title h3{
+        font-size: 16px;
+    }
+    .header-title a{
+        position: absolute;
+        font-size: 14px;
+    }
+}

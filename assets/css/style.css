@@ -3,3 +3,6 @@
 
 /* START RESPONSIVE MENU */
 @import url('_navbar.css');
+
+/* HEADER */
+@import url('_header.css');

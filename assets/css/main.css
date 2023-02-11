@@ -22,6 +22,9 @@ ul{
     padding: 0;
     list-style: none;
 }
+figure{
+    position: relative;
+}
 
 .container-fluid{
     width: 100%;
@@ -43,4 +46,10 @@ ul{
     width: 100%;
     height: auto;
     border-radius: 6px;
+}
+.absolute{
+    position: absolute;
+}
+.m-15{
+    margin-bottom: 15px;
 }
