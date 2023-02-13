@@ -1,0 +1,33 @@
+.footer-section-wrapper {
+  background-color: #efefef;
+  margin-top: 65px;
+}
+.footer-section-wrapper .footer-custom {
+  padding: 35px 0px 35px 0px;
+}
+.footer-section-wrapper .footer-item .company-brand {
+  margin: 20px 30px 20px 20px;
+}
+.footer-section-wrapper .footer-item .company-brand h2 {
+  color: #2b2727;
+  margin-bottom: 11px;
+}
+.footer-section-wrapper .footer-item .company-brand p {
+  color: #474545;
+  font-size: 16px;
+  line-height: 23px;
+}
+.footer-section-wrapper .footer-menu {
+  margin: 20px;
+}
+.footer-section-wrapper .footer-menu h5 {
+  color: #2b2727;
+  margin-bottom: 11px;
+}
+.footer-section-wrapper .footer-menu .menu-list li {
+  font-size: 16px;
+  line-height: 25px;
+}
+.footer-section-wrapper .footer-menu .menu-list li a {
+  color: #474545;
+}
