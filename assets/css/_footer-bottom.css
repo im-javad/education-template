@@ -1,0 +1,28 @@
+.footer-bottom {
+  background-color: #efefef;
+}
+.footer-bottom .footer-bottom-custom {
+  border-bottom: 1px solid #10aaa8;
+}
+.footer-bottom .copyright p {
+  padding: 16px;
+  color: #474545;
+}
+.footer-bottom .copyright p a {
+  color: #2b2727;
+  font-weight: 700;
+}
+.footer-bottom .social-links ul{
+    padding: 18px;
+}
+.footer-bottom .social-links ul li{
+    display: inline;
+    margin-right: 10px;
+}
+.footer-bottom .social-links ul li a{
+    color: #000;
+    transition: .3s ease-out;
+}
+.footer-bottom .social-links ul li a:hover{
+    color: #5f5c5c;
+}

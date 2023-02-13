@@ -25,5 +25,8 @@
 /* FAQ */
 @import url('_faq.css');
 
-/* FAQ */
+/* FOOTER */
 @import url('_footer.css');
+
+/* FOOTER BOTTOM */
+@import url('_footer-bottom.css');
