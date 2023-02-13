@@ -1,0 +1,68 @@
+.faq-section-wrapper .faq-left-side {
+  height: auto;
+  background-color: #efefef;
+  padding: 50px;
+  padding-right: 14px;
+}
+.faq-section-wrapper .faq-left-side h6 {
+  font-size: 16px;
+}
+.faq-section-wrapper .faq-left-side ul li h6 i {
+  font-size: 32px;
+  margin-right: 16px;
+  vertical-align: -6px;
+  color: #0f817f;
+}
+.faq-section-wrapper .faq-left-side ul li p {
+  font-size: 16px;
+  color: #7e7e7e;
+  margin: 10px 0 0 47px;
+}
+.faq-section-wrapper .faq-left-side ul li {
+  margin: 20px 0;
+}
+.faq-section-wrapper .faq-right-side{
+  padding-left: 14px;
+}
+.faq-section-wrapper .faq-right-side .tab{
+  overflow: hidden;
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, .5);
+}
+.faq-section-wrapper .faq-right-side .tab .tab-label{
+  padding: 13px;
+  color: white;
+  background-color: rgb(15 129 127);
+  width: 100%;
+  cursor: pointer;
+  display: block;
+  transition: .5s ease;
+}
+.faq-section-wrapper .faq-right-side .tab .tab-label:hover{
+  background-color: rgb(19 104 103);
+}
+.faq-section-wrapper .faq-right-side .tab .tab-label::after{
+  content: '\276f';
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  float: right;
+  transition: .5s ease;
+}
+.faq-section-wrapper .faq-right-side .tab .tab-content{
+  height: 0;
+  color: #000000;
+  background-color: #efefef;
+  transition: .5s ease;
+  font-size: 16px;
+}
+.faq-section-wrapper .faq-right-side input{
+  display: none;
+}
+.faq-section-wrapper .faq-right-side input:checked ~ .tab-content{
+  height: 100px;
+  padding: 10px;
+  overflow: scroll;
+}
+.faq-section-wrapper .faq-right-side input:checked + .tab-label::after{
+  transform: rotate(90deg);
+}
