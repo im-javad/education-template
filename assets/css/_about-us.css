@@ -1,40 +1,43 @@
-.info-side{
-    background-color: #efefef;
-    padding: 60px;
-    border-left: 3px solid #324a62;
-    border-right: 3px solid #324a62;
-    border-radius: 25px;
+.info-side {
+  background-color: #efefef;
+  padding: 60px;
+  border-left: 3px solid #324a62;
+  border-right: 3px solid #324a62;
+  border-radius: 25px;
 }
-.info-side h4{
-    color: #202020;
-    border-bottom: 1px solid rgb(190, 190, 190);
-    padding-bottom: 10px;
-    font-size: 20px;
+.info-side h4 {
+  color: #202020;
+  border-bottom: 1px solid rgb(190, 190, 190);
+  padding-bottom: 10px;
+  font-size: 20px;
 }
-.info-side p{
-    color: #474545;
-    padding: 10px;
-    font-size: 18px;
-    line-height: 27px;
+.info-side p {
+  color: #474545;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 27px;
 }
-.info-side a{
-    color: black;
-    float: right;
-    font-weight: 650;
-    color: #137977;
-    transition: .5s ease-in;
+.info-side a {
+  color: black;
+  float: right;
+  font-weight: 650;
+  color: #137977;
+  transition: 0.5s ease-in;
 }
-.info-side a:hover{
-    font-size: 18px;
+.info-side a:hover {
+  font-size: 18px;
 }
-@media screen and (max-width: 768px){
-    .info-side{
-        border-right: 0;
-        border-left: 0;
-        border-top: 3px solid #324a62;
-        border-bottom: 3px solid #324a62;
-    }
-    .our-team{
-        display: none;
-    }
+.section-title #about-us-title::after {
+  right: 60px;
+}
+@media screen and (max-width: 767px) {
+  .info-side {
+    border-right: 0;
+    border-left: 0;
+    border-top: 3px solid #324a62;
+    border-bottom: 3px solid #324a62;
+  }
+  .our-team {
+    display: none;
+  }
 }

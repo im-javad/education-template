@@ -1,29 +1,30 @@
-.stat-section-wrapper{
-    background-color: #efefef;
-    height: auto;
+.stat-section-wrapper {
+  background-color: #efefef;
+  height: auto;
+  margin-top: 150px;
 }
-.icon-stat{
-    width: 6rem;
-    margin-top: 1.7rem;
-    height: 6rem;
-    margin-right: auto;
-    margin-bottom: 1.5rem;
-    margin-left: auto;
-    border-radius: 50%;
-    background-color: #fbf9f5;
+.icon-stat {
+  width: 6rem;
+  margin-top: 1.7rem;
+  height: 6rem;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+  margin-left: auto;
+  border-radius: 50%;
+  background-color: #fbf9f5;
 }
-.stat-section-wrapper i{
-    color: #474545;
-    font-size: 3.5rem;
-    line-height: 6rem;
+.stat-section-wrapper i {
+  color: #474545;
+  font-size: 3.5rem;
+  line-height: 6rem;
 }
-.stat-section-wrapper .count{
-    color: #6b6969;
-    margin-bottom: 5px;
-    font: 700 1.25rem/1.875rem "Montserrat",sans-serif;
+.stat-section-wrapper .count {
+  color: #6b6969;
+  margin-bottom: 5px;
+  font: 700 1.25rem/1.875rem "Montserrat", sans-serif;
 }
-.stat-section-wrapper .count-title{
-    color: #2b2727;
-    font: 700 1.25rem/1.875rem "Montserrat",sans-serif;
-    margin-bottom: 1.7rem;
+.stat-section-wrapper .count-title {
+  color: #2b2727;
+  font: 700 1.25rem/1.875rem "Montserrat", sans-serif;
+  margin-bottom: 1.7rem;
 }

@@ -1,67 +1,67 @@
-.section-title{
-    margin: 50px 0px 20px 0px;
+.section-title {
+  margin: 150px 0px 35px 0px;
 }
-.section-title span::before{
-    content: '';
-    width: 50px;
-    height: 3px;
-    background-color: #324a62;
-    position: absolute;
-    top: 7px;
-    right: -55px;
+.section-title span::before {
+  content: "";
+  width: 50px;
+  height: 3px;
+  background-color: #324a62;
+  position: absolute;
+  top: 7px;
+  right: -55px;
 }
-.section-title span::after{
-    content: '';
-    width: 50px;
-    height: 3px;
-    background-color: #324a62;
-    position: absolute;
-    top: 7px;
-    right: 106px;
+.section-title span::after {
+  content: "";
+  width: 50px;
+  height: 3px;
+  background-color: #324a62;
+  position: absolute;
+  top: 7px;
+  right: 106px;
 }
-.card{
-    box-shadow: 1px 1px 1px #efefef;
-    cursor: pointer;
-    margin: 13px;
-    background-color: #fff;
-    border-radius: 15px;
-    border-radius: 0px 0px 15px 15px;
+.card {
+  box-shadow: 1px 1px 1px #efefef;
+  cursor: pointer;
+  margin: 13px;
+  background-color: #fff;
+  border-radius: 15px;
+  border-radius: 0px 0px 15px 15px;
 }
-.card-body{
-    margin: 8px;
+.card-body {
+  margin: 8px;
 }
-.card-body i{
-    font-size: 28px;
-    color: #10aaa8;
+.card-body i {
+  font-size: 28px;
+  color: #10aaa8;
 }
-.card-body a{
-    color: rgb(1, 10, 134);
-    font-size: 16px;
-    top: 5px;
-    left: 41px;
+.card-body a {
+  color: rgb(29 35 110);
+  font-size: 16px;
+  top: 5px;
+  left: 41px;
 }
-.card-body p{
-    color: #000000;
-    font-size: 14px;
-    line-height: 2.3;
+.card-body p {
+  color: #000000;
+  font-size: 14px;
+  line-height: 2.3;
 }
-.card-header img{
-    display: block;
+.card-header img {
+  display: block;
 }
-.card-header .card-overlay{
-    background-color: rgba(0, 0, 0 , .6);
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: .5s ease-in;
+.card-header .card-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 0.5s ease-in;
 }
-.card:hover .card-overlay{
-    opacity: 1;
+.card:hover .card-overlay {
+  opacity: 1;
 }
-.card .card-overlay p{
-    color: white;
-    font-size: 12px;
-    font-weight: 500;
+.card .card-overlay p {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
 }

@@ -1,12 +1,12 @@
-.teacher-section-wrapper{
-    /* background-color: black; */
+.teacher-name {
+  color: #44425a !important;
+  font-size: 20px !important;
+  font-weight: 550;
 }
-.teacher-name{
-    color: #44425a !important;
-    font-size: 20px !important;
-    font-weight: 550;
+.teacher-skill {
+  color: #6c6a74 !important;
+  font-size: 15px !important;
 }
-.teacher-skill{
-    color: #6c6a74 !important;
-    font-size: 15px !important;
+.section-title #teachers-title::after {
+  right: 56px;
 }

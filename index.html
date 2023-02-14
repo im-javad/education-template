@@ -24,7 +24,7 @@
       <div class="row navbar">
         <div class="container">
           <a href="">
-            <i class="fa-solid fa-graduation-cap"></i>
+            <i class="fa-solid fa-graduation-cap logo"></i>
           </a>
           <a href="" class="active">Home</a>
           <a href="">Education courses</a>
@@ -204,7 +204,7 @@
     <section class="container-fluid">
       <div class="section-title text-center">
         <h5>
-          <span class="relative title-about-us">About Us</span>
+          <span id="about-us-title" class="relative title-about-us">About Us</span>
         </h5>
       </div>
       <div class="row">
@@ -238,11 +238,11 @@
     </section>
     <!-- END about us section -->
 
-    <!-- START tearchers section  -->
+    <!-- START teachers section  -->
     <section class="container-fluid teacher-section-wrapper">
       <div class="section-title text-center">
         <h5>
-          <span class="relative">Teachers</span>
+          <span id="teachers-title" class="relative">Teachers</span>
         </h5>
       </div>
       <div class="container">
@@ -365,7 +365,7 @@
     <section class="container-fluid topic-section-wrapper">
       <div class="section-title text-center">
         <h5>
-          <span class="relative title-about-us">The Latest Articles</span>
+          <span id="topic-title" class="relative title-about-us">The Latest Articles</span>
         </h5>
       </div>
       <div class="row">
@@ -595,12 +595,12 @@
     <section class="container-fluid faq-section-wrapper">
       <div class="section-title text-center">
         <h5>
-          <span class="relative title-about-us">FAQ</span>
+          <span id="faq-title" class="relative title-about-us">FAQ</span>
         </h5>
       </div>
       <div class="row">
         <div class="container">
-          <div class="col-xs-12 col-s-12 col-md-6 col-l-6 col-xl-6 p-r-14">
+          <div class="col-xs-12 col-s-12 col-md-6 col-l-6 col-xl-6 p-r-14" id="feature">
             <div class="faq-left-side box-shodow">
               <ul>
                 <li>
@@ -627,49 +627,53 @@
               <div class="tabs">
                 <div class="tab">
                   <input type="checkbox" id="chck1" />
-                  <label class="tab-label" for="chck1">Support</label>
+                  <label class="tab-label" for="chck1">Is this course useful for me?</label>
                   <div class="tab-content">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Dolor excepturi quas exercitationem esse suscipit,
                     consequatur eius asperiores officiis a consectetur sed natus
                     ipsum dicta, perspiciatis ducimus earum, magnam iure
                     dignissimos.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptatibus adipisci vero asperiores ea ducimus molestiae! Autem et ipsam voluptas eius quo soluta nulla quia!
                   </div>
                 </div>
                 <div class="tab">
                   <input type="checkbox" id="chck2" />
-                  <label class="tab-label" for="chck2">Support</label>
+                  <label class="tab-label" for="chck2">What is the access to educational content?</label>
                   <div class="tab-content">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Autem a et aliquid, assumenda voluptatum asperiores odio?
                     Nobis libero distinctio, maxime, nihil expedita quae
                     exercitationem voluptatibus accusamus corporis, corrupti
                     esse magni.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis alias facilis cum explicabo necessitatibus, perferendis hic doloremque eum, non quaerat veniam! Nostrum, eos corporis quasi debitis nobis quae quod voluptate?
                   </div>
                 </div>
                 <div class="tab">
                   <input type="checkbox" id="chck3" />
-                  <label class="tab-label" for="chck3">Support</label>
+                  <label class="tab-label" for="chck3">Are there special conditions for payment?</label>
                   <div class="tab-content">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. At
                     hic quod mollitia eaque quas quia, corporis necessitatibus
                     placeat veritatis suscipit repudiandae laborum quam nisi.
                     Obcaecati animi saepe autem maxime unde!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid tenetur placeat iusto quas suscipit repellendus, repudiandae laboriosam quo voluptas delectus quia sit quasi rem corrupti aliquam pariatur veritatis maiores? Aperiam ad laudantium quasi sint velit?
                   </div>
                 </div>
                 <div class="tab">
                   <input type="checkbox" id="chck4" />
-                  <label class="tab-label" for="chck4">Support</label>
+                  <label class="tab-label" for="chck4">How long is the course?</label>
                   <div class="tab-content">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Dolorem ipsa, itaque cupiditate nemo perspiciatis mollitia
                     impedit, omnis expedita sed cumque totam nulla est saepe
                     architecto error! Quaerat officiis vel inventore.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ea.
                   </div>
                 </div>
                 <div class="tab">
                   <input type="checkbox" id="chck5" />
-                  <label class="tab-label" for="chck5">Support</label>
+                  <label class="tab-label" for="chck5">In waht time frames is the course supported?</label>
                   <div class="tab-content">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Numquam exercitationem magnam eos voluptatum id quam,
@@ -680,17 +684,18 @@
                 </div>
                 <div class="tab">
                   <input type="checkbox" id="chck6" />
-                  <label class="tab-label" for="chck6">Support</label>
+                  <label class="tab-label" for="chck6">Can i code after completing the course?</label>
                   <div class="tab-content">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Quidem similique voluptatibus vel eaque ea ipsa laboriosam
                     assumenda, possimus est accusantium voluptates illum neque
                     rem adipisci, aperiam saepe ex, autem eius!
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus voluptas dignissimos culpa, hic accusamus, labore ab velit alias ipsum ipsa earum corrupti ullam asperiores aliquam vel nemo ducimus, suscipit corporis aspernatur esse unde iure? Eaque odit asperiores sed assumenda.
                   </div>
                 </div>
                 <div class="tab">
                   <input type="checkbox" id="chck7" />
-                  <label class="tab-label" for="chck7">Support</label>
+                  <label class="tab-label" for="chck7">Are all the topics taught?</label>
                   <div class="tab-content">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Labore nemo necessitatibus, totam perspiciatis odio ipsam
@@ -701,12 +706,13 @@
                 </div>
                 <div class="tab">
                   <input type="checkbox" id="chck8" />
-                  <label class="tab-label" for="chck8">Support</label>
+                  <label class="tab-label" for="chck8">Are the teachers reliable?</label>
                   <div class="tab-content">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Quidem similique voluptatibus vel eaque ea ipsa laboriosam
                     assumenda, possimus est accusantium voluptates illum neque
                     rem adipisci, aperiam saepe ex, autem eius!
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, ex!
                   </div>
                 </div>
               </div>

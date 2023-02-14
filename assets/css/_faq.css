@@ -4,6 +4,9 @@
   padding: 50px;
   padding-right: 14px;
 }
+.section-title #faq-title::after {
+  right: 33px;
+}
 .faq-section-wrapper .faq-left-side h6 {
   font-size: 16px;
 }
@@ -21,48 +24,56 @@
 .faq-section-wrapper .faq-left-side ul li {
   margin: 20px 0;
 }
-.faq-section-wrapper .faq-right-side{
+.faq-section-wrapper .faq-right-side {
   padding-left: 14px;
 }
-.faq-section-wrapper .faq-right-side .tab{
+.faq-section-wrapper .faq-right-side .tab {
   overflow: hidden;
-  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, .5);
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
 }
-.faq-section-wrapper .faq-right-side .tab .tab-label{
+.faq-section-wrapper .faq-right-side .tab .tab-label {
   padding: 13px;
   color: white;
   background-color: rgb(15 129 127);
   width: 100%;
   cursor: pointer;
   display: block;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
-.faq-section-wrapper .faq-right-side .tab .tab-label:hover{
+.faq-section-wrapper .faq-right-side .tab .tab-label:hover {
   background-color: rgb(19 104 103);
 }
-.faq-section-wrapper .faq-right-side .tab .tab-label::after{
-  content: '\276f';
+.faq-section-wrapper .faq-right-side .tab .tab-label::after {
+  content: "\276f";
   width: 16px;
   height: 16px;
   text-align: center;
   float: right;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
-.faq-section-wrapper .faq-right-side .tab .tab-content{
+.faq-section-wrapper .faq-right-side .tab .tab-content {
   height: 0;
   color: #000000;
   background-color: #efefef;
-  transition: .5s ease;
+  transition: 0.5s ease;
   font-size: 16px;
 }
-.faq-section-wrapper .faq-right-side input{
+.faq-section-wrapper .faq-right-side input {
   display: none;
 }
-.faq-section-wrapper .faq-right-side input:checked ~ .tab-content{
+.faq-section-wrapper .faq-right-side input:checked ~ .tab-content {
   height: 100px;
   padding: 10px;
   overflow: scroll;
 }
-.faq-section-wrapper .faq-right-side input:checked + .tab-label::after{
+.faq-section-wrapper .faq-right-side input:checked + .tab-label::after {
   transform: rotate(90deg);
+}
+@media screen and (max-width: 767px) {
+  .faq-section-wrapper #feature {
+    padding-right: 0;
+  }
+  .faq-section-wrapper .faq-right-side {
+    padding-left: 0;
+  }
 }
